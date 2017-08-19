@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      Pixyll has Pagination
-date:       2014-06-08 11:21:29
-summary:    This is an empty post to illustrate the pagination component with Pixyll.
-categories: jekyll pixyll
+title:      A Common Night
+date:       2017-08-15 22:20:29
+summary:    Nothing.
+categories: life
 ---
 
-This is an empty post to illustrate the pagination component with Pixyll.
+My bolg is available now.
