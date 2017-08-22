@@ -41,6 +41,7 @@
     {% if site.share_hackernews %}
       <a class="fa fa-hacker-news" onclick="parent.postMessage('submit','*')" href="https://news.ycombinator.com/submitlink?u={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&amp;t={{ page.title | cgi_escape }}" rel="nofollow" target="_blank" title="{{ site.text.share_buttons.hackernews }}"></a>
     {% endif %}-->
+  <link rel="stylesheet" href="{{ site.baseurl }}/dist/css/share.min.css">
 
 
 <p>2</p>
@@ -67,7 +68,7 @@
     </li>
 
 <script src="{{ site.baseurl }}/dist/js/jquery.share.min.js"></script>
-
+<script src="http://apps.bdimg.com/libs/jquery/1.8.2/jquery.js"></script>
 
 
 <!--</div>-->
