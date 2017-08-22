@@ -42,8 +42,8 @@
       <a class="fa fa-hacker-news" onclick="parent.postMessage('submit','*')" href="https://news.ycombinator.com/submitlink?u={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&amp;t={{ page.title | cgi_escape }}" rel="nofollow" target="_blank" title="{{ site.text.share_buttons.hackernews }}"></a>
     {% endif %}-->
 
-<body>
-  <ol>
+
+
     <li class="row">
       <div class="social-share" data-sites="weibo,qq,qzone,tencent"></div>
     </li>
@@ -77,7 +77,7 @@
     <li class="row">
       <div id="share-4" data-disabled="wechat , facebook, twitter, google"></div>
     </li>
-  </ol>
+
 
 <script src="http://apps.bdimg.com/libs/jquery/1.8.2/jquery.js"></script>
 <script src="{{ site.baseurl }}/dist/js/jquery.share.min.js"></script>
@@ -87,6 +87,6 @@ $('#share-2').share({sites: ['qzone', 'qq', 'weibo','wechat']});
 $('#share-3').share();
 $('#share-4').share();
 </script>
-</body>
+
 
 </div>
