@@ -1,6 +1,6 @@
 <div class="share-page">
  <!-- <small type="hidden"> {{ site.text.share_buttons.text }}</small> -->
-  
+ <!-- 
   <div class="share-links">
     {% if site.share_facebook %}
       <a class="fa fa-facebook" href="https://facebook.com/sharer.php?u={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}" rel="nofollow" target="_blank" title="{{ site.text.share_buttons.facebook }}"></a>
@@ -40,18 +40,16 @@
 
     {% if site.share_hackernews %}
       <a class="fa fa-hacker-news" onclick="parent.postMessage('submit','*')" href="https://news.ycombinator.com/submitlink?u={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}&amp;t={{ page.title | cgi_escape }}" rel="nofollow" target="_blank" title="{{ site.text.share_buttons.hackernews }}"></a>
-    {% endif %}
-   <div class="bdsharebuttonbox">
-    <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
-    <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
-    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
-   </div>
-   <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":[],"bdPic":"fa fa-facebook,fa fa-twitter,fa fa-weobo","bdStyle":"2","bdSize":"25"},"share":{},"image":{"viewList":["fbook","twi","tsina","qzone"],"viewText":"分享到：","viewSize":"16"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-  </div>
+    {% endif %}-->
+ 
  <div class="social-share"></div>
-
+   <ol>
+    <li class="row">
+      <div class="social-share" data-sites="weibo,qq,qzone,tencent"></div>
+    </li>
+    </ol>
 <!-- share.css -->
-<link rel="stylesheet" href="dist/css/share.min.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/dist/css/share.min.css">
 
 <!-- share.js -->
 <script src="{{ site.baseurl }}/dist/js/jquery.share.min.js"></script>
