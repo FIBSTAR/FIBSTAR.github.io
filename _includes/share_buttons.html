@@ -1,6 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>test</title>
+  <meta name="site" content="content site">
+  <meta name="Site" content="content Site">
+  <meta name="title" content="content title">
+  <meta name="Title" content="content Title">
   <link rel="stylesheet" href="../dist/css/share.min.css">
-<div class="row-pad">
 
+  <style>
+  .row{padding: 20px 0 0 20px}
+  .row-pad{padding: 20px 0 0 60px}
+  </style>
+</head>
+<body>
+  <div class="row-pad">
     <h1>test</h1>
   </div>
 
@@ -42,3 +57,11 @@
 
 <script src="../src/js/social-share.js"></script>
 <script src="../src/js/qrcode.js"></script>
+<script>
+socialShare('#share-1');
+socialShare('#share-2', {sites: ['qzone', 'qq', 'weibo','wechat']});
+socialShare('#share-3');
+socialShare('#share-4');
+</script>
+</body>
+</html>
