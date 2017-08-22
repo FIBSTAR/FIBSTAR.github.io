@@ -74,7 +74,8 @@ show_sharing_icons: true
 share_facebook: true
 share_twitter: true
 share_googleplus: true
-share_linkedin: true
+share_weibo: true
+share_linkedin: false
 share_digg: false
 share_tumblr: false
 share_reddit: false
@@ -90,6 +91,7 @@ text:
     facebook:     'Share on Facebook'
     twitter:      'Share on Twitter'
     googleplus:   'Share on Google+'
+    weibo:        'Share on weibo'
     linkedin:     'Share on LinkedIn'
     digg:         'Share on Digg'
     tumblr:       'Share on Tumblr'
