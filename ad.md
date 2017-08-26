@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ad
-permalink: /ad/
-tags: ad
+title: AD
+permalink: /AD/
+tags: AD
 ---
