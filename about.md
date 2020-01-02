@@ -8,6 +8,7 @@ tags: about
 * Fibstar
 * Another nickname: OrangeMore
 * Undergraduate major in mathematics and applied mathematics at the Beijing Normal University
+* Working as a mathematics teacher in Hangzhou Silver Lake Experimental Middle School
 * Friendly and full of respect
 * Love life
 
