@@ -4,7 +4,7 @@ title: AD
 permalink: /AD/
 tags: AD
 ---
-<h3>广告位招租啦！！！(1 dollars for 9 months)
+<h3>广告位招租啦！！！(嘻嘻)
 <br>
 <br>
 <p>Tel：18811337236</p>
