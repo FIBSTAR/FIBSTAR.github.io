@@ -1,8 +1,8 @@
 ---
 layout: page
 title: weixin
-permalink: /weixin/
-tags: weixin
+permalink: /weichat/
+tags: weichat
 ---
 <p>Hi, friend!</p>
 <p>Nice to see you!</p>
